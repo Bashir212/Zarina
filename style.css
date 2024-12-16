@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 90px;
+    align-items: center;
+    padding: 20px;
+    
+}
+.box{
+    display: flex;
+}
+.box h1{
+    padding-top: 20px;
+}
+
+.header ul{
+   display: flex;
+   gap: 50px;
+   padding-right: 70px;
+   list-style: none;
+   font-size: 20px;
+  
+   
+}
+
+.header span{
+    color: #7f0aad;
+}
+#cont {
+    padding: 10px 22px;
+    color: white;
+    background-color: #7f0aad;
+    border-radius: 10px;
+}
+.main{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(back.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1063px;
+    height: 366px;
+    color: white;
+    
+}
+.right {
+    width: 250px;
+    padding: 30px 60px;
+}
+.main h6{
+    font-size: 10px;
+    padding: 4px 30px;
+}
+.right h1{
+    padding: 10px 30px;
+    }
+.right p{
+    padding: 4px 30px;
+}
+.main img{
+    border-radius: 15px;
+    width: 400px;  
+}
+.right button{
+    padding: 7px 20px;
+    margin: 17px 25px; 
+    border-radius: 5px;
+    border: none;
+}
+.home ul{
+    display: flex;
+    gap: 30px;
+    margin: 20px 400px;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    color: gray;
+}
+.box1{
+    display: flex;
+    margin: 10px 500px;
+}
+.box1 h2{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+hr{
+    margin: 40px 50px;
+}
+.copy{
+    margin: 20px 500px;
+    height: 60px;
+}
+.Fc ul{
+    display: flex;
+    gap: 30px;
+    margin: 40px 450px;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    color:white;
+}
+.Fc span{
+    background-color: blue;
+    border: 15px solid blue;
+    height: 10px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.ai img{
+    width: 1000px;  
+    height: 600px;
+    border-radius: 10px;
+    
+   
+   }
+   .ai{
+       position: relative;
+       margin: 90px 180px;
+   }
+   .aii{
+      border: none;
+      width: 700px;
+      height: 250px;
+      border-radius: 20px;
+       background-color: white;
+      position: absolute;
+      top: 370px;
+      left: 182PX;
+      padding: 20px 60px;
+   
+   }
+   span{
+    color: gray;
+   }
+   .aii h1{
+       font-size: 35px;
+   }
+   .pn{
+       border-radius: 10px;
+       color: blue;
+       border: 2px solid 0;
+       padding: 10px;
+       width: 100px;
+       margin-top: 10px;
+       box-shadow: 0px 1px 3px blue;
+   }
+   .post{
+       display: flex;
+       justify-content: space-between; 
+       margin: 20px 180px;
+       align-items: center;
+   
+   }
+   .post button{
+       background-color: blueviolet;
+       border-radius: 10px;
+       color: white;
+       width: 115px;
+       height: 40px;
+       border: none;
+   }
+   .ai1{
+       display: flex; 
+       gap: 30px;
+       margin: 0px 170px;
+   }
+   .ai1 img{
+       width: 500px;  
+       height: 400px;
+       border-radius: 10px; 
+   }
+   .march{
+       font-size: 17px;
+       padding: 0px 14px;
+   }
+   
+   .football{
+       display: flex;
+       gap: 60px;
+       width: 200px;
+       margin: 22px 160px;
+   }
+   .ball img{
+       padding-top: 10px;
+       width: 300px;
+       height: 200px;
+       border-radius: 30px;
+   }
+   .footer{
+       background-image: url(https://img.freepik.com/free-vector/memphis-blue-background-with-halftone-line-elements_1017-33622.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       text-align: center;
+       margin: 50px 0px;
+       align-items: center;
+       width: 1204px;
+       height: 300px;
+       color: white;
+       padding: 30px;
+       
+   }
+   .footer p{
+       padding-left: 450px;
+       width: 300px;
+   }
+   .footer1{
+       display: flex;
+       justify-content: space-between;
+       text-align: center;
+   }
+   *ul{
+       display: flex;
+   }
+
+
+   @media screen and (max-width:600px) {
+    .header ul{
+        display: none;
+    }
+    .header{
+        padding: 20px;
+    }
+    .header i{
+        font-size: 80px;
+    }
+    .main{
+        flex-direction: column;
+        padding: 20px;
+       height: 930px;
+       width: 946px;
+    }
+    .right{
+        padding: 30px;
+        margin-left: 40px;
+    }
+    .right h1{
+        font-size: 70px;
+        width: 800px;
+    }
+    .right h6{
+        font-size: 30px;
+    }
+    .right p{
+        width: 800px;
+    }
+    .right p,button{
+        font-size: 30px;
+    }
+    .main img{
+        margin-left: 90px;
+        width: 500px;
+        padding-bottom: 80px;
+    }
+
+    .ai{
+        margin: 30px;
+      
+    }
+    .aii{
+        width: 689px;
+        height: 400px;
+        left: 40px;
+    }
+    .ai img{
+        width: 850px;
+    }
+    .aii h1{
+        font-size: 40px;
+    }
+    .aii h6{
+        font-size: 30px;
+    }
+    .aii p{
+        font-size: 20px;
+    }
+    .pn{
+       
+        padding-top: 10px;
+        width: 200px;  
+    }
+    .post{
+        margin-top: 220px;
+        margin-bottom: 40px;
+    }
+    .post h1{
+        font-size: 50px;
+        margin: 0px -100px;
+    }
+    .ai1{
+        flex-direction: column;
+        width: 600px;
+    }
+    .ai1 img{
+        width: 700px;
+        margin: 0px -90px;
+    }
+    .march{
+     margin: 0px -90px;
+    }
+    .march h6{
+        font-size: 25px;
+        width: 500px;
+    }
+    .march h1{
+        font-size: 40px;
+    }
+    .main p{
+        font-size: 25px;
+    }
+
+    .football{
+        flex-direction: column;
+        margin: 40px 60px;
+        width: 700px;
+       
+    }
+    .ball img{
+        width: 700px;
+        height: 400px;
+        margin: 30px;
+    }
+    .ball h6{
+        font-size: 30px;
+        margin: 10px;
+    }
+    .ball h1{
+        font-size: 60px;
+        margin: 10px;
+    }
+    .ball p{
+        font-size: 30px;
+        margin: 10px;
+    }
+    .footer{
+        padding: 10px;
+        width: 968px;
+    }
+    .footer p{
+        font-size: 30px;
+        width: 400px;
+        margin: 10px -190px;
+    }
+    .footer input{
+        padding: 10px 2px;
+        font-size: 30px;
+    }
+    .copy{
+        text-align: center;
+        margin: 0px;
+       
+    }
+    .fc ul{
+        align-items: center;
+        color: black;
+        margin: 0px;
+    }
+
+    .box1{
+        margin: 0px 300px;
+    }
+    
+    
+    
+
+} 
